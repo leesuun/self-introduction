@@ -3,12 +3,32 @@
 }
 
 .top-header {
-  position: fixed;
-  top: 0;
+  display: flex;
   width: 100%;
-  border: 1px solid black;
-  margin-left: 300px;
+  margin-left: 400px;
   height: 120px;
+  justify-content: left;
+  align-items: center;
+  padding: 0 2rem;
+  border-bottom: 1px solid rgb(100 171 241);
+}
+.top-header__title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-right: 1.5rem;
+}
+
+.top-header__nav {
+  display: flex;
+  gap: 12px;
+}
+.top-header__button {
+  border: none;
+  background-color: rgb(100 171 241);
+  padding: 0.5rem;
+  width: 100px;
+  border-radius: 10px;
+  font-weight: 700;
 }
 
 .aside {
@@ -65,15 +85,31 @@
 }
 
 .main {
-  border: 1px solid black;
-  margin-left: 300px;
-  margin-top: 150px;
+  margin: 10px 0 0 400px;
+  padding: 1rem;
 }
 
-.portfolio-section {
-  border: 1px solid black;
+.section {
+  margin-top: 1.5rem;
+}
+.section-title {
+  border: 1px solid rgb(100 171 241);
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 700;
+  padding: 3px;
 }
 
-.portfolio-section {
+.section-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 20px;
+}
+
+.project {
   border: 1px solid black;
+  width: 400px;
+  height: 150px;
 }
