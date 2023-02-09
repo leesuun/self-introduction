@@ -4,46 +4,66 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
     <title>이수운 자기소개페이지</title>
   </head>
   <body>
-    <header>
-      <h1>LeeDevT</h1>
-      <nav>
-        <button>Home</button>
-        <button>Project</button>
-      </nav>
-    </header>
-    <aside>
-      <div>
-        <img src="" alt="" />
-        <h3>LEE, SUUN</h3>
-        <h4>FULL-STACK Developer</h4>
-      </div>
-      <hr />
-
-      <ul>
-        <li>000-0000-0000</li>
-        <li>xxx@naver.com</li>
-        <li>blog</li>
-        <li>git</li>
-      </ul>
-    </aside>
-    <main>
-      <section>
-        <h1>PORTFOLIO</h1>
-        <div>
-          <div>project_1</div>
-          <div>project_2</div>
+    <div class="wrapper">
+      <header class="top-header">
+        <h1>LeeDevT</h1>
+        <nav>
+          <button>Home</button>
+          <button>Project</button>
+        </nav>
+      </header>
+      <aside class="aside">
+        <div class="aside-profil">
+          <img class="profil-img" src="./img/man.jpg" alt="" />
+          <h3 class="profil-name">LEE, SUUN</h3>
+          <p class="profil-text">FULL-STACK Developer</p>
         </div>
-      </section>
-      <section>
-        <h1>ACTIVITY</h1>
-        <div></div>
-      </section>
-      <section></section>
-    </main>
-    <footer></footer>
+        <hr class="horizontality-line" />
+
+        <ul class="aside-info__list">
+          <li class="aside-info">
+            <i class="fa-regular fa-mobile fa-3x"></i>
+            <span>000-0000-0000</span>
+          </li>
+          <li class="aside-info">
+            <i class="fa-regular fa-mobile fa-3x"></i>
+            <span> xxx@naver.com</span>
+          </li>
+          <li class="aside-info">
+            <i class="fa-regular fa-mobile fa-3x"></i>
+            <span> blog</span>
+          </li>
+          <li class="aside-info">
+            <i class="fa-regular fa-mobile fa-3x"></i>
+            <span> git</span>
+          </li>
+        </ul>
+      </aside>
+      <main class="main">
+        <section class="section portfolio-section">
+          <h1>PORTFOLIO</h1>
+          <div class="project-box">
+            <div>project_1</div>
+            <div>project_2</div>
+          </div>
+        </section>
+        <section>
+          <h1>ACTIVITY</h1>
+          <div></div>
+        </section>
+        <section></section>
+      </main>
+      <footer></footer>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6833760571.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
