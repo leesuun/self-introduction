@@ -109,10 +109,6 @@ body {
   line-height: 1;
 }
 
-body {
-  font-family: "Open Sans", sans-serif;
-}
-
 ol,
 ul {
   list-style: none;
@@ -144,4 +140,14 @@ a {
 
 body {
   height: 150vh;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}
+
+.wrapper {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
